@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Codigo Cesar</title>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    body { background-color: #00BDFF; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="text-align: center;">Codigo Cesar</h1>
+    <br>
+      <form action="recuperardatos" method="post">
+        <div class="form-inline">
+        Ingrese si quiere encriptar o desencriptar (por e o d en el casillero): 
+        <input type="text" class="form-control" id="numa" placeholder="e o d" name="eod" size="10"><br>
+        Ingrese la cadena a enccriptar o desencriptar:
+        <input type="text" class="form-control" id="numa" placeholder="Ingrese Cadena" name="texto" size="30"><br>
+        Ingrese el numero cesar:  
+        <input type="text" class="form-control" id="numa" placeholder="Ingrese Número Cesar" name="posicion" size="30"><br>
+  </div>
+  <br>
+    <input type="submit" class="btn btn-primary" value="Enviar">
+</form>
+</body>
+</html>
